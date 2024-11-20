@@ -1,0 +1,17 @@
+{
+  "name": "url-shortener",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify"
+  },
+  "dependencies": {
+    "@prisma/adapter-d1": "^5.22.0",
+    "@prisma/client": "5.22.0",
+    "hono": "^4.6.10"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241022.0",
+    "prisma": "^5.22.0",
+    "wrangler": "^3.83.0"
+  }
+}
